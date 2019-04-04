@@ -1,0 +1,38 @@
+/********************************
+             SIDEBAR
+ ********************************/
+.sidebar {
+    -fx-background-color: #40e0d0;
+}
+
+.title-label {
+    -fx-text-fill: #eeeeee;
+    -fx-font-size: 22;
+}
+
+.sidebar-button-pane {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+.sidebar-button {
+    -fx-effect: null;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-radius: 0;
+    -fx-font-size: 18;
+    -fx-text-fill: #4c4c4c;
+    -fx-graphic-text-gap: 16;
+    -fx-cursor: hand;
+    -fx-padding: 0 0 0 50;
+}
+
+.sidebar-button:hover,
+.sidebar-button:pressed {
+    -fx-background-color: #00868b;
+    -fx-text-fill: #FFF;
+}
+
+.sidebar-button:hover {
+    -fx-padding: 0 0 0 56px;
+}

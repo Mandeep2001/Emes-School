@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="main_pane" prefHeight="200.0" prefWidth="400.0" styleClass="backgound" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.emes.schoolmanagement.util.alert.ALertController">
+   <children>
+      <Label fx:id="titleLabel" layoutX="14.0" layoutY="16.0" styleClass="title" text="ATTENZIONE" />
+      <Button layoutX="297.0" layoutY="160.0" mnemonicParsing="false" onAction="#close" prefHeight="20.0" prefWidth="80.0" styleClass="confirm-button" text="OK" />
+      <Label fx:id="messageLabel" layoutX="14.0" layoutY="91.0" text="Label" />
+   </children>
+</AnchorPane>

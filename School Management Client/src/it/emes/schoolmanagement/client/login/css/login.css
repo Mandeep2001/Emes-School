@@ -1,0 +1,64 @@
+.login-pane {
+    -fx-background-color: #262626;
+}
+
+.login-title {
+    -fx-font-family: "Verdana Pro";
+    -fx-font-size: 1.8em;
+    -fx-text-fill: #dddddd;
+}
+
+.login-register {
+    -fx-font-family: "Verdana Pro";
+    -fx-font-size: 1.1em;
+    -fx-text-fill: #dddddd;
+}
+
+.login-label-register {
+    -fx-font-size: 1.1em;
+    -fx-text-fill: #ddd;
+}
+
+.login-label-register:hover {
+    -fx-font-size: 1.2em;
+    -fx-text-fill: #00868b;
+}
+
+.login-textfield {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: #40e0d0;
+    -fx-text-fill: #ddd;
+}
+
+.login-textfield:focused {
+    -fx-border-color: #00868b;
+    -fx-text-fill: #ddd;
+}
+
+.login-combobox {
+    -fx-background-color: transparent;
+    -fx-font-size: 18;
+    -fx-font-family: "Verdana Pro";
+    -fx-text-fill: #ddd;
+    -fx-prompt-text-fill: #ddd;
+}
+
+.login-button {
+    -fx-background-color: #00868b;
+    -fx-border-width: 0;
+    -fx-border-radius: 0;
+    -fx-font-size: 18;
+    -fx-font-family: "Verdana Pro";
+    -fx-text-fill: #ddd;
+}
+
+.login-error {
+    -fx-font-family: "Verdana Pro";
+    -fx-font-size: 14;
+    -fx-text-fill: #ddd;
+}
+
+.login-button:hover {
+    -fx-background-color: #40e0d0;
+}

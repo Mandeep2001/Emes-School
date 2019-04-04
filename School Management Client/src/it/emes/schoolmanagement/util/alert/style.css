@@ -1,0 +1,23 @@
+.backgound {
+    -fx-background-color: #262626;
+}
+
+.title {
+    -fx-text-fill: #ddd;
+    -fx-font-size: 16;
+    -fx-font-family: "Verdana Pro";
+}
+
+.message {
+    -fx-background-color: transparent;
+    -fx-text-fill: #aaa;
+    -fx-font-size: 14;
+    -fx-font-family: "Verdana";
+    -fx-wrap-text: true;
+}
+
+.confirm-button {
+    -fx-background-color: #343434;
+    -fx-text-fill: #ddd;
+    -fx-font-family: "Verdana Pro";
+}

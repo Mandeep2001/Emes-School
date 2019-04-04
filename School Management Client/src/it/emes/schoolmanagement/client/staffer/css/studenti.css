@@ -1,0 +1,59 @@
+/*********************************
+           STUDENTIPANE
+ *********************************/
+.personale-studenti-top {
+    -fx-text-alignment: center;
+    -fx-text-fill: #424242;
+    -fx-spacing: 100px;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-font-family: Verdana;
+}
+
+.aggiungi-studente-pane {
+    -fx-spacing: 20px;
+}
+
+.date-class-pane {
+    -fx-spacing: 20px;
+}
+
+.personale-studenti-field {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: #40e0d0;
+    -fx-prompt-text-fill: #606060;
+    -fx-text-fill: #707070;
+    -fx-font-family: Verdana;
+}
+
+.personale-studenti-button {
+    -fx-background-color: #40e0d0;
+    -fx-text-fill: #FFF;
+    -fx-font-size: 18;
+    -fx-font-family: Verdana;
+}
+
+.personale-studenti-button:hover {
+    -fx-background-color: #00868b;
+}
+
+.personale-studenti-delete-button {
+    -fx-background-color: #40e0d0;
+    -fx-text-fill: #FFF;
+    -fx-font-size: 18;
+    -fx-font-family: Verdana;
+}
+
+.personale-studenti-delete-button:hover {
+    -fx-background-color: tomato;
+}
+
+.personale-studenti-label {
+    -fx-font-family: "Verdana";
+}
+
+.personale-studenti-label-title {
+    -fx-font-size: 20;
+}
